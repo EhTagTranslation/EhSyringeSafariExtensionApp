@@ -1,38 +1,68 @@
 {
-    "manifest_version": 2,
-    "default_locale": "en",
-
-    "name": "__MSG_extension_name__",
-    "description": "__MSG_extension_description__",
-    "version": "1.0",
-
-    "icons": {
-        "48": "images/icon-48.png",
-        "96": "images/icon-96.png",
-        "128": "images/icon-128.png",
-        "256": "images/icon-256.png",
-        "512": "images/icon-512.png"
+  "name": "EhSyringe",
+  "short_name": "EhSyringe",
+  "description": "E 站注射器，将中文翻译注入到 E 站体内。包含全站 UI 翻译和超过 10000 条标签翻译，标签数据库持续更新中。",
+  "author": "EhTagTranslation",
+  "version": "2.4.0",
+  "homepage_url": "https://github.com/EhTagTranslation/EhSyringe",
+  "manifest_version": 2,
+  "applications": {
+    "gecko": {
+      "id": "{759d5566-1dce-41ae-bae9-00dd5172c422}",
+      "strict_min_version": "57.0"
+    }
+  },
+  "icons": {
+    "16": "assets/logo16.png",
+    "32": "assets/logo32.png",
+    "48": "assets/logo48.png",
+    "128": "assets/logo128.png"
+  },
+  "omnibox": {
+    "keyword": "ex"
+  },
+  "background": {
+    "scripts": [
+      "script/vendor.js",
+      "script/background.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "assets/logo16.png",
+      "32": "assets/logo32.png",
+      "48": "assets/logo48.png",
+      "128": "assets/logo128.png"
     },
-
-    "background": {
-        "scripts": [ "background.js" ],
-        "persistent": false
-    },
-
-    "content_scripts": [{
-        "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
-    }],
-
-    "browser_action": {
-        "default_popup": "popup.html",
-        "default_icon": {
-            "16": "images/toolbar-icon-16.png",
-            "19": "images/toolbar-icon-19.png",
-            "32": "images/toolbar-icon-32.png",
-            "38": "images/toolbar-icon-38.png"
-        }
-    },
-
-    "permissions": [ ]
+    "default_popup": "assets/popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://exhentai.org/*",
+        "*://e-hentai.org/*",
+        "*://*.exhentai.org/*",
+        "*://*.e-hentai.org/*"
+      ],
+      "exclude_matches": [
+        "*://forums.e-hentai.org/*"
+      ],
+      "js": [
+        "script/vendor.js",
+        "script/page.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": [
+    "*://exhentai.org/*",
+    "*://e-hentai.org/*",
+    "*://*.exhentai.org/*",
+    "*://*.e-hentai.org/*",
+    "activeTab",
+    "notifications",
+    "storage",
+    "contextMenus"
+  ]
 }
