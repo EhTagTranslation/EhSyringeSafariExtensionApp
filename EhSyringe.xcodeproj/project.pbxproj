@@ -22,6 +22,7 @@
 		DC1E88EE269EF2A20008E674 /* script in Resources */ = {isa = PBXBuildFile; fileRef = DC1E88EB269EF2A20008E674 /* script */; };
 		DC1E88EF269EF2A20008E674 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = DC1E88EC269EF2A20008E674 /* manifest.json */; };
 		DC1E88F0269EF2A20008E674 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = DC1E88ED269EF2A20008E674 /* assets */; };
+		DC1E88F3269EF63A0008E674 /* userscript in Resources */ = {isa = PBXBuildFile; fileRef = DC1E88F2269EF63A0008E674 /* userscript */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		DC1E88EB269EF2A20008E674 /* script */ = {isa = PBXFileReference; lastKnownFileType = folder; path = script; sourceTree = "<group>"; };
 		DC1E88EC269EF2A20008E674 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		DC1E88ED269EF2A20008E674 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		DC1E88F2269EF63A0008E674 /* userscript */ = {isa = PBXFileReference; lastKnownFileType = folder; path = userscript; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 		DC1E88AB269EEFEC0008E674 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DC1E88F2269EF63A0008E674 /* userscript */,
 				DC1E88ED269EF2A20008E674 /* assets */,
 				DC1E88EC269EF2A20008E674 /* manifest.json */,
 				DC1E88EB269EF2A20008E674 /* script */,
@@ -245,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC1E88F3269EF63A0008E674 /* userscript in Resources */,
 				DC1E88AD269EEFEC0008E674 /* _locales in Resources */,
 				DC1E88F0269EF2A20008E674 /* assets in Resources */,
 				DC1E88EF269EF2A20008E674 /* manifest.json in Resources */,

@@ -50,7 +50,10 @@
       ],
       "js": [
         "script/vendor.js",
-        "script/page.js"
+        "script/page.js",
+        "userscript/EhDetailPageTagColor.user.js",
+        "userscript/EhTagTranslatedJump.user.js",
+        "userscript/EhReadStatus.user.js"
       ],
       "run_at": "document_start"
     }
