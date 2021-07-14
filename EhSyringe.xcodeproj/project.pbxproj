@@ -18,14 +18,10 @@
 		DC1E88A5269EEFEC0008E674 /* EhSyringe Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DC1E88A4269EEFEC0008E674 /* EhSyringe Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DC1E88AA269EEFEC0008E674 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1E88A9269EEFEC0008E674 /* SafariWebExtensionHandler.swift */; };
 		DC1E88AD269EEFEC0008E674 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = DC1E88AC269EEFEC0008E674 /* _locales */; };
-		DC1E88AF269EEFEC0008E674 /* images in Resources */ = {isa = PBXBuildFile; fileRef = DC1E88AE269EEFEC0008E674 /* images */; };
-		DC1E88B1269EEFEC0008E674 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = DC1E88B0269EEFEC0008E674 /* manifest.json */; };
-		DC1E88B3269EEFEC0008E674 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = DC1E88B2269EEFEC0008E674 /* background.js */; };
-		DC1E88B5269EEFEC0008E674 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = DC1E88B4269EEFEC0008E674 /* content.js */; };
-		DC1E88B7269EEFEC0008E674 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = DC1E88B6269EEFEC0008E674 /* popup.html */; };
-		DC1E88B9269EEFEC0008E674 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = DC1E88B8269EEFEC0008E674 /* popup.css */; };
-		DC1E88BB269EEFEC0008E674 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = DC1E88BA269EEFEC0008E674 /* popup.js */; };
 		DC1E88BD269EEFEC0008E674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC1E889E269EEFEC0008E674 /* Assets.xcassets */; };
+		DC1E88CA269EF01F0008E674 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = DC1E88C7269EF01F0008E674 /* assets */; };
+		DC1E88CB269EF01F0008E674 /* script in Resources */ = {isa = PBXBuildFile; fileRef = DC1E88C8269EF01F0008E674 /* script */; };
+		DC1E88CC269EF01F0008E674 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = DC1E88C9269EF01F0008E674 /* manifest.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,14 +63,10 @@
 		DC1E88A4269EEFEC0008E674 /* EhSyringe Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "EhSyringe Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC1E88A9269EEFEC0008E674 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		DC1E88AC269EEFEC0008E674 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
-		DC1E88AE269EEFEC0008E674 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
-		DC1E88B0269EEFEC0008E674 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		DC1E88B2269EEFEC0008E674 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
-		DC1E88B4269EEFEC0008E674 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
-		DC1E88B6269EEFEC0008E674 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		DC1E88B8269EEFEC0008E674 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
-		DC1E88BA269EEFEC0008E674 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		DC1E88BC269EEFEC0008E674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1E88C7269EF01F0008E674 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		DC1E88C8269EF01F0008E674 /* script */ = {isa = PBXFileReference; lastKnownFileType = folder; path = script; sourceTree = "<group>"; };
+		DC1E88C9269EF01F0008E674 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = manifest.json; path = "../../../../../Downloads/ehsyringe.firefox 2/manifest.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,14 +143,10 @@
 		DC1E88AB269EEFEC0008E674 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DC1E88C7269EF01F0008E674 /* assets */,
+				DC1E88C9269EF01F0008E674 /* manifest.json */,
+				DC1E88C8269EF01F0008E674 /* script */,
 				DC1E88AC269EEFEC0008E674 /* _locales */,
-				DC1E88AE269EEFEC0008E674 /* images */,
-				DC1E88B0269EEFEC0008E674 /* manifest.json */,
-				DC1E88B2269EEFEC0008E674 /* background.js */,
-				DC1E88B4269EEFEC0008E674 /* content.js */,
-				DC1E88B6269EEFEC0008E674 /* popup.html */,
-				DC1E88B8269EEFEC0008E674 /* popup.css */,
-				DC1E88BA269EEFEC0008E674 /* popup.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -257,14 +245,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC1E88B3269EEFEC0008E674 /* background.js in Resources */,
-				DC1E88B9269EEFEC0008E674 /* popup.css in Resources */,
-				DC1E88B7269EEFEC0008E674 /* popup.html in Resources */,
-				DC1E88AF269EEFEC0008E674 /* images in Resources */,
-				DC1E88B1269EEFEC0008E674 /* manifest.json in Resources */,
+				DC1E88CC269EF01F0008E674 /* manifest.json in Resources */,
+				DC1E88CB269EF01F0008E674 /* script in Resources */,
 				DC1E88AD269EEFEC0008E674 /* _locales in Resources */,
-				DC1E88B5269EEFEC0008E674 /* content.js in Resources */,
-				DC1E88BB269EEFEC0008E674 /* popup.js in Resources */,
+				DC1E88CA269EF01F0008E674 /* assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
