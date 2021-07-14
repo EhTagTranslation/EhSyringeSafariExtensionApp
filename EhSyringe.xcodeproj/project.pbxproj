@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC1E888B269EEFEB0008E674 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1E888A269EEFEB0008E674 /* AppDelegate.swift */; };
+		DC1E888F269EEFEB0008E674 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = DC1E888D269EEFEB0008E674 /* Main.html */; };
+		DC1E8891269EEFEB0008E674 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DC1E8890269EEFEB0008E674 /* Icon.png */; };
+		DC1E8893269EEFEB0008E674 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = DC1E8892269EEFEB0008E674 /* Style.css */; };
+		DC1E8895269EEFEB0008E674 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1E8894269EEFEB0008E674 /* SceneDelegate.swift */; };
+		DC1E8897269EEFEB0008E674 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1E8896269EEFEB0008E674 /* ViewController.swift */; };
+		DC1E889A269EEFEB0008E674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1E8898269EEFEB0008E674 /* LaunchScreen.storyboard */; };
+		DC1E889D269EEFEB0008E674 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1E889B269EEFEB0008E674 /* Main.storyboard */; };
+		DC1E88A5269EEFEC0008E674 /* EhSyringe Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DC1E88A4269EEFEC0008E674 /* EhSyringe Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DC1E88AA269EEFEC0008E674 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1E88A9269EEFEC0008E674 /* SafariWebExtensionHandler.swift */; };
+		DC1E88AD269EEFEC0008E674 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = DC1E88AC269EEFEC0008E674 /* _locales */; };
+		DC1E88AF269EEFEC0008E674 /* images in Resources */ = {isa = PBXBuildFile; fileRef = DC1E88AE269EEFEC0008E674 /* images */; };
+		DC1E88B1269EEFEC0008E674 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = DC1E88B0269EEFEC0008E674 /* manifest.json */; };
+		DC1E88B3269EEFEC0008E674 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = DC1E88B2269EEFEC0008E674 /* background.js */; };
+		DC1E88B5269EEFEC0008E674 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = DC1E88B4269EEFEC0008E674 /* content.js */; };
+		DC1E88B7269EEFEC0008E674 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = DC1E88B6269EEFEC0008E674 /* popup.html */; };
+		DC1E88B9269EEFEC0008E674 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = DC1E88B8269EEFEC0008E674 /* popup.css */; };
+		DC1E88BB269EEFEC0008E674 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = DC1E88BA269EEFEC0008E674 /* popup.js */; };
+		DC1E88BD269EEFEC0008E674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC1E889E269EEFEC0008E674 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC1E88A6269EEFEC0008E674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC1E887F269EEFEB0008E674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC1E88A3269EEFEC0008E674;
+			remoteInfo = "EhSyringe Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DC1E88C3269EEFEC0008E674 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DC1E88A5269EEFEC0008E674 /* EhSyringe Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DC1E8887269EEFEB0008E674 /* EhSyringe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EhSyringe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1E888A269EEFEB0008E674 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC1E888E269EEFEB0008E674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		DC1E8890269EEFEB0008E674 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		DC1E8892269EEFEB0008E674 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		DC1E8894269EEFEB0008E674 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DC1E8896269EEFEB0008E674 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC1E8899269EEFEB0008E674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC1E889C269EEFEB0008E674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC1E889E269EEFEC0008E674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC1E889F269EEFEC0008E674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1E88A4269EEFEC0008E674 /* EhSyringe Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "EhSyringe Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1E88A9269EEFEC0008E674 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		DC1E88AC269EEFEC0008E674 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		DC1E88AE269EEFEC0008E674 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		DC1E88B0269EEFEC0008E674 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		DC1E88B2269EEFEC0008E674 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		DC1E88B4269EEFEC0008E674 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		DC1E88B6269EEFEC0008E674 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		DC1E88B8269EEFEC0008E674 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		DC1E88BA269EEFEC0008E674 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		DC1E88BC269EEFEC0008E674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC1E8884269EEFEB0008E674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1E88A1269EEFEC0008E674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC1E887E269EEFEB0008E674 = {
+			isa = PBXGroup;
+			children = (
+				DC1E8889269EEFEB0008E674 /* EhSyringe */,
+				DC1E88A8269EEFEC0008E674 /* EhSyringe Extension */,
+				DC1E8888269EEFEB0008E674 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC1E8888269EEFEB0008E674 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC1E8887269EEFEB0008E674 /* EhSyringe.app */,
+				DC1E88A4269EEFEC0008E674 /* EhSyringe Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC1E8889269EEFEB0008E674 /* EhSyringe */ = {
+			isa = PBXGroup;
+			children = (
+				DC1E888A269EEFEB0008E674 /* AppDelegate.swift */,
+				DC1E8894269EEFEB0008E674 /* SceneDelegate.swift */,
+				DC1E8896269EEFEB0008E674 /* ViewController.swift */,
+				DC1E8898269EEFEB0008E674 /* LaunchScreen.storyboard */,
+				DC1E889B269EEFEB0008E674 /* Main.storyboard */,
+				DC1E889E269EEFEC0008E674 /* Assets.xcassets */,
+				DC1E889F269EEFEC0008E674 /* Info.plist */,
+				DC1E888C269EEFEB0008E674 /* Resources */,
+			);
+			path = EhSyringe;
+			sourceTree = "<group>";
+		};
+		DC1E888C269EEFEB0008E674 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC1E888D269EEFEB0008E674 /* Main.html */,
+				DC1E8890269EEFEB0008E674 /* Icon.png */,
+				DC1E8892269EEFEB0008E674 /* Style.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DC1E88A8269EEFEC0008E674 /* EhSyringe Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DC1E88A9269EEFEC0008E674 /* SafariWebExtensionHandler.swift */,
+				DC1E88BC269EEFEC0008E674 /* Info.plist */,
+				DC1E88AB269EEFEC0008E674 /* Resources */,
+			);
+			path = "EhSyringe Extension";
+			sourceTree = "<group>";
+		};
+		DC1E88AB269EEFEC0008E674 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC1E88AC269EEFEC0008E674 /* _locales */,
+				DC1E88AE269EEFEC0008E674 /* images */,
+				DC1E88B0269EEFEC0008E674 /* manifest.json */,
+				DC1E88B2269EEFEC0008E674 /* background.js */,
+				DC1E88B4269EEFEC0008E674 /* content.js */,
+				DC1E88B6269EEFEC0008E674 /* popup.html */,
+				DC1E88B8269EEFEC0008E674 /* popup.css */,
+				DC1E88BA269EEFEC0008E674 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC1E8886269EEFEB0008E674 /* EhSyringe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC1E88C4269EEFEC0008E674 /* Build configuration list for PBXNativeTarget "EhSyringe" */;
+			buildPhases = (
+				DC1E8883269EEFEB0008E674 /* Sources */,
+				DC1E8884269EEFEB0008E674 /* Frameworks */,
+				DC1E8885269EEFEB0008E674 /* Resources */,
+				DC1E88C3269EEFEC0008E674 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC1E88A7269EEFEC0008E674 /* PBXTargetDependency */,
+			);
+			name = EhSyringe;
+			productName = EhSyringe;
+			productReference = DC1E8887269EEFEB0008E674 /* EhSyringe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC1E88A3269EEFEC0008E674 /* EhSyringe Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC1E88C0269EEFEC0008E674 /* Build configuration list for PBXNativeTarget "EhSyringe Extension" */;
+			buildPhases = (
+				DC1E88A0269EEFEC0008E674 /* Sources */,
+				DC1E88A1269EEFEC0008E674 /* Frameworks */,
+				DC1E88A2269EEFEC0008E674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EhSyringe Extension";
+			productName = "EhSyringe Extension";
+			productReference = DC1E88A4269EEFEC0008E674 /* EhSyringe Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC1E887F269EEFEB0008E674 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					DC1E8886269EEFEB0008E674 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DC1E88A3269EEFEC0008E674 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = DC1E8882269EEFEB0008E674 /* Build configuration list for PBXProject "EhSyringe" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC1E887E269EEFEB0008E674;
+			productRefGroup = DC1E8888269EEFEB0008E674 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC1E8886269EEFEB0008E674 /* EhSyringe */,
+				DC1E88A3269EEFEC0008E674 /* EhSyringe Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC1E8885269EEFEB0008E674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1E8891269EEFEB0008E674 /* Icon.png in Resources */,
+				DC1E889D269EEFEB0008E674 /* Main.storyboard in Resources */,
+				DC1E889A269EEFEB0008E674 /* LaunchScreen.storyboard in Resources */,
+				DC1E888F269EEFEB0008E674 /* Main.html in Resources */,
+				DC1E88BD269EEFEC0008E674 /* Assets.xcassets in Resources */,
+				DC1E8893269EEFEB0008E674 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1E88A2269EEFEC0008E674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1E88B3269EEFEC0008E674 /* background.js in Resources */,
+				DC1E88B9269EEFEC0008E674 /* popup.css in Resources */,
+				DC1E88B7269EEFEC0008E674 /* popup.html in Resources */,
+				DC1E88AF269EEFEC0008E674 /* images in Resources */,
+				DC1E88B1269EEFEC0008E674 /* manifest.json in Resources */,
+				DC1E88AD269EEFEC0008E674 /* _locales in Resources */,
+				DC1E88B5269EEFEC0008E674 /* content.js in Resources */,
+				DC1E88BB269EEFEC0008E674 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC1E8883269EEFEB0008E674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1E8897269EEFEB0008E674 /* ViewController.swift in Sources */,
+				DC1E888B269EEFEB0008E674 /* AppDelegate.swift in Sources */,
+				DC1E8895269EEFEB0008E674 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1E88A0269EEFEC0008E674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1E88AA269EEFEC0008E674 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC1E88A7269EEFEC0008E674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC1E88A3269EEFEC0008E674 /* EhSyringe Extension */;
+			targetProxy = DC1E88A6269EEFEC0008E674 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC1E888D269EEFEB0008E674 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC1E888E269EEFEB0008E674 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		DC1E8898269EEFEB0008E674 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC1E8899269EEFEB0008E674 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DC1E889B269EEFEB0008E674 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC1E889C269EEFEB0008E674 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC1E88BE269EEFEC0008E674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC1E88BF269EEFEC0008E674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC1E88C1269EEFEC0008E674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8JMN6858M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EhSyringe Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "EhSyringe Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EhTagTranslation.EhSyringe.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC1E88C2269EEFEC0008E674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8JMN6858M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EhSyringe Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "EhSyringe Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EhTagTranslation.EhSyringe.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC1E88C5269EEFEC0008E674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8JMN6858M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EhSyringe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EhSyringe;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.EhTagTranslation.EhSyringe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC1E88C6269EEFEC0008E674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8JMN6858M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EhSyringe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EhSyringe;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.EhTagTranslation.EhSyringe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC1E8882269EEFEB0008E674 /* Build configuration list for PBXProject "EhSyringe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1E88BE269EEFEC0008E674 /* Debug */,
+				DC1E88BF269EEFEC0008E674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC1E88C0269EEFEC0008E674 /* Build configuration list for PBXNativeTarget "EhSyringe Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1E88C1269EEFEC0008E674 /* Debug */,
+				DC1E88C2269EEFEC0008E674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC1E88C4269EEFEC0008E674 /* Build configuration list for PBXNativeTarget "EhSyringe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1E88C5269EEFEC0008E674 /* Debug */,
+				DC1E88C6269EEFEC0008E674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC1E887F269EEFEB0008E674 /* Project object */;
+}
