@@ -1,4 +1,13 @@
 # EhSyringeSafariExtensionApp
+
+
+## 本项目不再更新
+> 目前iOS平台已经有可用的UserScript插件 <br>
+> 请直接安装类似插件，通过插件安装EhSyringe <br>
+> 目前可用的UserScript插件： https://github.com/quoid/userscripts#installation
+
+
+
 iOS15开始支持浏览器扩展，未来可以使用altstore.io进行安装。
 
 ### TODO
